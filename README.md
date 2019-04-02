@@ -1,6 +1,12 @@
 # Syllabus for BIOS823 (2019)
 
-- BIOS 823 (Biomedical Big Data) explains what is typically meant by the term *Big Data*, the challenges with Big DAta, and common strategies for the processing and analysis of Big Data. The course examples are in Python and fluency in the language is expected - BIOS 821 and STA 663 are appropriate pre-requisites. The core topics are how to manage data and how to make computation scalable, with applications to the analysis of structured, semi-structured and unstructured data, especially from biomedical contexts. A draft syllabus with more details is viewable at 
+BIOS 823 describes the challenges faced by analysts with the increasing importance of large data sets, and the strategies that have been developed in response to these challenges. The core topics are how to manage data and how to make computation scalable. The data management module covers guidelines for working with open data, and the concepts and practical skills for working with in-memory, relational and NoSQL databases. The scalable computing module focuses on asynchronous, concurrent, parallel and distributed computing, as wel as the construction of effective workflows following following DevOps practices. Applications to the analysis of structured, semi-structured and unstructured data, especially from biomedical contexts, will be interleaved into the course. The course examples are primarily in Python and fluency in Python is assumed.
+
+Pre-requisites:
+
+- Fluency in Python (BIOS821, STA 663 or equivalent)
+
+Course repository (with detailed syllabus) is at https://github.com/cliburn/bios-823-2019
 
 ## Part 1: Managing data
 
