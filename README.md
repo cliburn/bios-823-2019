@@ -1,6 +1,6 @@
-# Syllabus for BIOS 823 2019
+# Syllabus for BIOS823 (2019)
 
-- BIOS 823 (Biomedical Big Data) explains what is typically meant by the term *Big Data*, the challenges with Big DAta, and common strategies for the processing and analysis of Big Data. The course examples are in Python and fluency in the language is expected - BIOS 821 and STA 663 are appropriate pre-requisites. The core topics are how to manage data and how to make computation scalable.
+- BIOS 823 (Biomedical Big Data) explains what is typically meant by the term *Big Data*, the challenges with Big DAta, and common strategies for the processing and analysis of Big Data. The course examples are in Python and fluency in the language is expected - BIOS 821 and STA 663 are appropriate pre-requisites. The core topics are how to manage data and how to make computation scalable, with applications to the analysis of structured, semi-structured and unstructured data, especially from biomedical contexts. A draft syllabus with more details is viewable at 
 
 ## Part 1: Managing data
 
@@ -217,47 +217,3 @@ async and await
 - Running a Hadoop cluster
 
 ### Final Exam
-
-----
-
-Extra material that may or may not be covered.
-
-## Practical analysis of biomedical data sets
-
-### A1. Analysis of text data
-
-- Natural language processing (NLP)
-- Bag of words
-- One-hot and integer coding
-- Tf-idf and document retrieval
-- SVD and Latent Semantic Analysis
-- Example Using nltk to extract named entities
-- Example: Using gensim to classify newsgroups
-
-### A2. Analysis of time series data
-
-- Smoothing with exponential weighted averages
-- Scan statistics
-- Stationarity
-- Trends and patterns
-- Differencing
-- Decomposition
-- ACF and PACF
-- Forecasting with ARIMA models
-- Example: Using prophet for time series decomposition
-
-### A3. Analysis of genomics data
-
-- Simple DNA processing
-- Motif finding
-- Sequence alignment
-- Example: Using biopython for genomic data bioinformatics
-
-### A4. Analysis of image data
-
-- Image formats
-- Image to array
-- Morphological operations
-- Convolution and image filters
-- Image segmentation
-- Example: Usng skimage for color separation of histology images
