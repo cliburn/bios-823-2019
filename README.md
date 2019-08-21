@@ -6,108 +6,114 @@ Pre-requisites:
 
 - Fluency in Python (BIOS821, STA 663 or equivalent)
 
-Course repository (with detailed syllabus) is at https://github.com/cliburn/bios-823-2019
+Course repository is at https://github.com/cliburn/bios-823-2019
 
-## Part 1: Managing data
+### Overview and Review
 
-### 1. Data, pipelines and functional programming in Python
+#### 1. Introduction
+
+- Adminstration
+- Syllabus
+- Python
+- Data science and healthcare
+
+#### 2. Foundations I (Python functional style)
 
 - Data pipelines
 - Why functional programming?
 - Use of lambdas and higher-order functions
 - Using `toolz` to build lazy pipelines
 
-### 2. Open data and the FAIR guidelines
+#### 3. Foundations II (Python data science stack)
 
-- Why open data?
-- The FAIR guidelines
-- Data standards and ontologies
+- Using `numpy`
+- Using `scipy`
+- Using `pandas`
+- Using `scikit-learn`
+- Using `statsmodels`
+- Using `matplotlib`
+- Using `seaborn`
 
-### 3. Data sharing APIs: REST and GraphQL
+### Data storage and retrieval
 
-- The JSON formats
-- REST APIs
-- GraphQL APIs
+#### 4. File types for data storage and ETL
 
-### 4. Fast local and in-memory storage
+- Delimited text files
+- JSON
+- XML
+- HDF5
+- Avro
+- Parquet
+- APIs for data sharing
+- Using `odo`
 
-- Memory mapping in `numpy`
-- HDF5 and `h5py`
-- Apache Arrow and Feather
-- Using `odo` for out-of-memory conversion
+#### 5. SQL database and warehouse schemas
 
-### 5. Relational database concepts
-
-- Relational database management systems (RDBMS)
 - Tuples and set operations
 - The database schema
 - Tables and views
-- Primary and foreign keys
+- Tables, rows, columns, cells
+- Primary keys, foreign keys and referential integrity
+- Normalization for data entry
 - Indexing and optimization
-- ACID transactions
 - Database migrations
+- De-normalization for data query
+- Star schema for data warehouses
 
-### 6. Using SQL Part 1: Creation and manipulation
+#### 6. SQL: Creation and manipulation
 
-- Normalized an denormalized data
+- Why learn SQL
 - The stages of data normalization
 - The CREATE statement
 - The INSERT statement
+- The UPDATE statement
 - Adding indexes
+- ACID
+- Transactions and rollback
+- ETL to populate databases
 
-### 7. Using SQL Part 2: Basic queries and sub-queries
+#### 7. SQL: Basic queries and sub-queries
 
-- The SELECT statement
-- Filtering
-- Joins and semi-joins
+- Server vs client side queries
+- The Select statement
+- Projection
+- Filtering on rows
+- Sorting
+- Transforms
+- Grouping
+- Filtering on groups
+- Summarization
 - Sub-queries
 - Using explain
 
-### 8. Using SQL Part 3: Aggregate and window queriers
+#### 8. SQL: Window queries and UDFs
 
-- Using Aggregate functions
-- Using Window functions
-- Server-side custom functions
+- Set operations
+- Joins and semi-joins
+- Window functions
+- User-defined functions (1:1, N:1, 1:N)
 
-### 9. NoSQL database concepts
+#### 9. Key-value and document databases
 
-- Types of NoSQL databases
-- ACID and  BASE
-- Trade-offs (when to use SQL, key-value, document, graph and column family)
-
-### 10. Key-value databases: Redis
-
+- Concepts of NoSQL: From ACID to BASE
 - What is a key-value database?
-- Typical uses of Redis
-- Basic operations with Redis
-- Usage example
-
-### 11. Document databases: Mongodb
-
+- Using `redis`
 - What is a document database?
-- Typical uses of MongoDB
-- Basic operations with MongoDB
-- Usage example
+- Using `mongodb`
 
-### 12. Graph database: Neo4j
-
-- What is a graph database?
-- Graphs and operations on graphs
-- Typical uses of Neo4j
-- The Cypher Query Language
-
-### 13. Column family databases: Cassandra
+#### 10. Column-family and graph databases
 
 - What is a column family database?
-- Typical uses of Cassandra
-- The Cassandra Query Language
-- CQL versus SQL
+- Using `hbase`
+- What is a graph database?
+- Using `neo4j`
+- Trade-offs (when to use SQL, key-value, document, graph and column family)
 
-### Midterm Exam
+Midterm I (10%)
 
-## Part 2: Making computation scalable
+### Distributed computing
 
-### 14. Asynchronous computation
+#### OPTION: Asynchronous computation
 
 - Concurrent, parallel and distributed
 - Why asynchronous programming?
@@ -117,36 +123,60 @@ Course repository (with detailed syllabus) is at https://github.com/cliburn/bios
 - Coroutines and tasks
 - Sending messages to coroutines, threads and processes
 - The event loop
-async and await
+- async and await
 
-### 15. Multi-core computation
+#### OPTION: Multi-core computation
 
 - Amdahl and Gustaffson laws
 - Threads and processes
 - Embarrassingly parallel problems
-- Shared memory probems
+- Shared memory issues
 - Deadlocks and race conditions
 - Low level parallel programming with `multiprocessing`
 - Using `concurrent.futures` and `multiprocessing` pools
-- Using `ipyparallel` for interactive parallelism
 
-### 16. Native code compilation, parallel execution and the GIL
-
-- Using parallel targets in `numba`
-- Using `OpenMP` with Cython
-- Standardization of Parallelism TS	with `pybind11`
-
-### 17. GPU computing with Python CUDA
-
-- Using `numba` CUDA
-- Targeting the GPU with `vectrorize` and `guvectorize`
-
-### 18. Distributed programming concepts and Spark
+#### 11. The Hadoop ecosystem, HDFS and YARN
 
 - Why distributed computing?
-- HDFS
-- YARN and other resource managers
-- Spark, MapReduce and other compute engines
+- Google Map-Reduce
+- Hadoop
+- HDFS: Distributed file system
+- YARN: Resource manager
+- MapReduce: Compute engine
+
+#### 12. MapReduce and other tools
+
+- MapReduce programming
+- Writing a MapReduce program in Python using Streaming
+- Tools for putting data in HDFS (Flume, Sqoop)
+- Tools for SQL access to HDFS (Hive, Impala)
+- Tools for workflow and pipeline construction (Crunch, Oozie, Airflow)
+- Tools for coordination of distributed programs (Zookeeper)
+- NoSQL database (HBase)
+
+#### 13. Dask data frames
+
+- Dask concents
+- Working with `dask` DataFrames
+- Dask efficiency
+
+#### 14. Dask arrays, bags and machine learning
+
+- Working with `dask` arrays
+- Working with `dask` bags
+- ML with `dask`
+
+#### 15. DevOps and cloud computing
+
+- What is DevOps?
+- Practices and tools
+- Source code control
+- Using Docker containers
+- Walk-through using AWS
+
+#### 16. Spark basics
+
+- Spark concepts
 - The Spark context
 - The data flow DAG
 - Resilient Distributed Datasets (RDD)
@@ -158,7 +188,7 @@ async and await
 - Using UDFs (User Defined Functions)
 - Example: Hello, word count!
 
-### 19. Spark SQL
+#### 17. Spark SQL
 
 - The Spark session
 - Creating and saving a DataFrame
@@ -170,7 +200,7 @@ async and await
 - Column family databases
 - Columnar data stores arrow and parquet
 
-### 20. Spark MLLib
+#### 18. Spark machine learning
 
 - Basic statistics with Spark
 - Pipelines
@@ -180,7 +210,7 @@ async and await
 - Collaborative filtering
 - Model selection
 
-### 21. Spark Streaming
+#### 19. Spark and streaming data
 
 - Streaming concepts
 - StreamingContext
@@ -190,36 +220,51 @@ async and await
 - Checkpoints
 - DataFrame operations
 - Machine learning operations
+- Processing event logs
 
-### 22. Spark GraphFrames
+Midterm II (10%)
 
-- Classic graph algorithms
-- Creating GraphFrames
-- Queries and stateful queries
-- Working with subgraphs
-- Standard graph algorithms
+### Data analysis
 
-### 23. DevOps and containers
+#### OPTION Structured including geographical
 
-- What is DevOps?
-- Practices and tools
-- Source code control
-- Using Docker containers
+- Structured data using `dask`
+- Statistical visualization with `seaborn`, `plotly`, `bokeh`
+- From long/lat to x/y coordinates
+- Interactive mapping with `datashader`
 
-### 24. Microservices and container orchestration
+#### OPTION Free text
 
-- What are microservices?
-- Container orchestration with `kubernetes`
+- Concepts of text analysis
+- From text to matrix
+- Natural language processing with `nltk`, `spacy`
+- Topic modeling with `spacy` and `gensim`
+- Sentiment classification
 
-### 25. Data Center and Cloud Computing
+#### OPTION Images
 
-- The Duke Compute Cluster (DCC)
-- Using `slurm` to run a job
-- Why cloud computing?
-- AWS, Azure and Google compute
-- Setting up account
-- Running a Docker container
-- Running a virtual machine
-- Running a Hadoop cluster
+- Concepts of image processing
+- Using `scikit-image`
+- Using a CNN to classify images
 
-### Final Exam
+#### OPTION Time series
+
+- Concepts of time series analysis
+- Using `statsmodels`
+- Using `prophet`
+
+#### OPTION Graphs and networks
+
+- Concepts of graph and network analysis
+- Using `networkx`
+- Using `neo4j`
+- Using `Spark GraphFrames`
+
+#### OPTION Genomics
+
+- Concepts of genomic processing
+- Unix pipelines
+- Distributed processing with `Adam`
+- Example: counting k-mers
+
+Final Exam (30%)
