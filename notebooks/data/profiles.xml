@@ -1,0 +1,58 @@
+<duke>
+    <employee>
+        <address>1063 داوود Stravenue Suite 188
+        South ريتالstad, NE 15082</address>
+        <birthdate>None</birthdate>
+        <blood_group>AB+</blood_group>
+        <company>آل عواض, آل سلطان and آل مقطة</company>
+        <current_location>24.333449</current_location>
+        <current_location>-31.313933</current_location>
+        <job>Research scientist (physical sciences)</job>
+        <mail>alqyl@yahoo.com</mail>
+        <name>الأستاذة أسيل حجار</name>
+        <residence>456 سرحان Inlet Apt. 218
+        East سجى, WV 44739</residence>
+        <sex>F</sex>
+        <ssn>113-90-3545</ssn>
+        <username>mhnhrth</username>
+        <website>https://lhkyr-al.com/</website>
+        <website>http://al.com/</website>
+    </employee>
+    <employee>
+        <address>9516 Thomas Falls
+        West Randall, OR 31568</address>
+        <birthdate>None</birthdate>
+        <blood_group>A-</blood_group>
+        <company>Mitchell, Carroll and Cooper</company>
+        <current_location>45.5171425</current_location>
+        <current_location>-68.251421</current_location>
+        <job>Surveyor, building control</job>
+        <mail>xrichardson@yahoo.com</mail>
+        <name>Kelly Miller</name>
+        <residence>21433 Lucero Way Apt. 512
+        Erinberg, FL 46113</residence>
+        <sex>F</sex>
+        <ssn>055-43-6596</ssn>
+        <username>lboyd</username>
+        <website>https://www.levine.com/</website>
+    </employee>
+    <employee>
+        <address>甘肃省宁德市长寿崔路S座 747320</address>
+        <birthdate>None</birthdate>
+        <blood_group>AB+</blood_group>
+        <company>图龙信息传媒有限公司</company>
+        <current_location>-63.7154915</current_location>
+        <current_location>119.882111</current_location>
+        <job>可靠度工程师</job>
+        <mail>weiqin@gmail.com</mail>
+        <name>王雷</name>
+        <residence>北京市柳县永川昆明路D座 447897</residence>
+        <sex>M</sex>
+        <ssn>350212197208264282</ssn>
+        <username>yinjun</username>
+        <website>https://www.uj.com/</website>
+        <website>http://www.lei.cn/</website>
+        <website>https://www.gangtao.cn/</website>
+        <website>http://www.87.cn/</website>
+    </employee>
+</duke>
