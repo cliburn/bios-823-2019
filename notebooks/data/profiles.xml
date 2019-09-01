@@ -1,58 +1,57 @@
 <duke>
     <employee>
-        <address>1063 داوود Stravenue Suite 188
-        South ريتالstad, NE 15082</address>
+        <address>43457 كتوم Plains Suite 096
+        بنانview, MD 48123</address>
         <birthdate>None</birthdate>
-        <blood_group>AB+</blood_group>
-        <company>آل عواض, آل سلطان and آل مقطة</company>
-        <current_location>24.333449</current_location>
-        <current_location>-31.313933</current_location>
-        <job>Research scientist (physical sciences)</job>
-        <mail>alqyl@yahoo.com</mail>
-        <name>الأستاذة أسيل حجار</name>
-        <residence>456 سرحان Inlet Apt. 218
-        East سجى, WV 44739</residence>
-        <sex>F</sex>
-        <ssn>113-90-3545</ssn>
-        <username>mhnhrth</username>
-        <website>https://lhkyr-al.com/</website>
+        <blood_group>A+</blood_group>
+        <company>المغاولة and Sons</company>
+        <current_location>54.993302</current_location>
+        <current_location>-16.808277</current_location>
+        <job>Scientist, forensic</job>
+        <mail>syfldwynlrshd@hotmail.com</mail>
+        <name>السيد موسى المشاولة</name>
+        <residence>8475 جوريّة Brooks
+        عرفانbury, MT 02323</residence>
+        <sex>M</sex>
+        <ssn>177-66-4460</ssn>
+        <username>mlhjr</username>
         <website>http://al.com/</website>
     </employee>
     <employee>
-        <address>9516 Thomas Falls
-        West Randall, OR 31568</address>
+        <address>337 John Mountain
+        South Josebury, IL 88948</address>
         <birthdate>None</birthdate>
-        <blood_group>A-</blood_group>
-        <company>Mitchell, Carroll and Cooper</company>
-        <current_location>45.5171425</current_location>
-        <current_location>-68.251421</current_location>
-        <job>Surveyor, building control</job>
-        <mail>xrichardson@yahoo.com</mail>
-        <name>Kelly Miller</name>
-        <residence>21433 Lucero Way Apt. 512
-        Erinberg, FL 46113</residence>
+        <blood_group>AB-</blood_group>
+        <company>Rojas-Manning</company>
+        <current_location>36.7676655</current_location>
+        <current_location>-50.791245</current_location>
+        <job>Minerals surveyor</job>
+        <mail>davisbarbara@yahoo.com</mail>
+        <name>Vanessa Smith</name>
+        <residence>733 Gordon Freeway Apt. 006
+        West Richard, DE 29439</residence>
         <sex>F</sex>
-        <ssn>055-43-6596</ssn>
-        <username>lboyd</username>
-        <website>https://www.levine.com/</website>
+        <ssn>148-32-8045</ssn>
+        <username>sherry05</username>
+        <website>https://www.shah.com/</website>
     </employee>
     <employee>
-        <address>甘肃省宁德市长寿崔路S座 747320</address>
+        <address>天津市凯市西夏周路N座 768749</address>
         <birthdate>None</birthdate>
-        <blood_group>AB+</blood_group>
-        <company>图龙信息传媒有限公司</company>
-        <current_location>-63.7154915</current_location>
-        <current_location>119.882111</current_location>
-        <job>可靠度工程师</job>
-        <mail>weiqin@gmail.com</mail>
-        <name>王雷</name>
-        <residence>北京市柳县永川昆明路D座 447897</residence>
-        <sex>M</sex>
-        <ssn>350212197208264282</ssn>
-        <username>yinjun</username>
-        <website>https://www.uj.com/</website>
-        <website>http://www.lei.cn/</website>
-        <website>https://www.gangtao.cn/</website>
-        <website>http://www.87.cn/</website>
+        <blood_group>AB-</blood_group>
+        <company>飞利信信息有限公司</company>
+        <current_location>87.7656005</current_location>
+        <current_location>-52.4258</current_location>
+        <job>电子/电器/半导体/仪器仪表</job>
+        <mail>xiulanlu@gmail.com</mail>
+        <name>衣建平</name>
+        <residence>湖南省济南市和平吴路u座 312685</residence>
+        <sex>F</sex>
+        <ssn>230502195104128216</ssn>
+        <username>xiuying46</username>
+        <website>https://www.guiying.cn/</website>
+        <website>http://nading.cn/</website>
+        <website>https://guiyingna.cn/</website>
+        <website>https://minyang.org/</website>
     </employee>
 </duke>
