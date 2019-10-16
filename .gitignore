@@ -6,6 +6,10 @@ __pycache__/
 *$py.class
 data/profiles*
 
+notebooks/candy.csv
+*.cpp.cppimporthash
+*.cpp
+
 # C extensions
 *.so
 
