@@ -5,7 +5,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 data/profiles*
+*.zip
+checkpoints
+__MACOSX/
 
+activity-data
 notebooks/data/test.csv
 notebooks/data/test_null.csv
 notebooks/candy.csv
