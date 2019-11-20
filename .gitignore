@@ -8,6 +8,7 @@ data/profiles*
 *.zip
 checkpoints
 __MACOSX/
+checkpoint/
 
 activity-data
 notebooks/data/test.csv
